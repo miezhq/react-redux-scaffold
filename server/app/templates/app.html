@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BT Evaluari</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="/static/app.css" rel="stylesheet" media="all" />
+    </head>
+    <body>
+    <div id="root" style="height: 100%"></div>
+    <script>
+        (function () {
+            window.__APP_DATA = {{ appData|safe }};
+        })();
+    </script>
+    <script src="/static/vendor.js"></script>
+    <script src="/static/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+node_modules
+.git
+
+server/config/*
+!server/config/index.js
+!server/config/base.js
+!server/config/sample.js
+
+pm2.json
+
+# Logs
+logs
+*.log
+npm-debug-log.*
+.idea
+session-store.db

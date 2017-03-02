@@ -1,0 +1,38 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-underscore-dangle": "off",
+    "linebreak-style": "off",
+    "import/extensions": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-tag-spacing": "off",
+    "import/prefer-default-export": "off",
+    "no-shadow": [1, { "allow": ["done", "err", "error", "next"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "quotes": [1, "single"],
+    "no-plusplus": "off",
+    "no-alert": "off",
+    "max-len": [2, 120, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+    "consistent-return": "off"
+  },
+  "globals": {
+    "__API_ENDPOINT__": true,
+    "ENVIRONMENT": true,
+    "process.env": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": "evozonjs"
+}
